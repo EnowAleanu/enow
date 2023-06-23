@@ -4,7 +4,7 @@ import List from '../List';
 
 const ListServices = () => {
 
-  const { data,isPending,error } = useFetch("http://localhost:5000/api/service/services");
+  const { data,isPending,error } = useFetch("https://enow-backend.onrender.com/api/service/services");
     
     return (
 

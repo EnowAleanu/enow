@@ -3,7 +3,7 @@ import Exps from '../exps';
 import useFetch from "../../useFetch";
 
 const ListExperiences = () => {
-  const { data,isPending,error } = useFetch("http://localhost:5000/api/experience/experiences");
+  const { data,isPending,error } = useFetch("https://enow-backend.onrender.com/api/experience/experiences");
 
  
   
