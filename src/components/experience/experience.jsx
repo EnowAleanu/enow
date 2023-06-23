@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import ListExperiences from "./components/listExperiences";
+ import ListExperiences from "./listExperiences";
 
 const Experience = () => {
     return ( 

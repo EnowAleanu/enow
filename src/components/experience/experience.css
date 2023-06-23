@@ -1,7 +1,28 @@
+
+#experience .container {
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experiences{
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height:fit-content;
+    transition: var(--transition);
+}
+
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
 }
 
 .experience__container>div{
@@ -10,6 +31,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+   
 }
 
 .experience__container>div:hover{
@@ -51,7 +73,7 @@
 
 @media only screen and (max-width: 1024px) {    
     .experience__container{
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr 1fr;
     }
     
     .experience__details > div{
